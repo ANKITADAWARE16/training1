@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <windows.h> ///for windows related functions (not important)
 #include <string.h>  ///string operations
-
+ankita
 /** List of Global Variable */
 COORD coord = {0,0}; /// top-left corner of window
 

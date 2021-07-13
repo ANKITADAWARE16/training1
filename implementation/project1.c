@@ -1,3 +1,17 @@
+/**
+ * @file project1.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-07-13
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+
+
+
 #include <stdio.h> ///for input output functions like printf, scanf
 #include <stdlib.h>
 #include <conio.h>

@@ -11,4 +11,4 @@ int main()
     struct emp e;
                 printf("\n%s %d %.2f",e.name,e.age,e.bs); /// print the name, age and basic salary
                 return 0;
-            }
+            } 

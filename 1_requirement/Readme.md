@@ -12,7 +12,8 @@ Add new records: add new data into file with name, phone number and amount to be
 
 SWOT ANALYSIS:
 
-Software Billing and Charging Partner and Interconnect Management Services Professional Services Managed Services_page-0001
+![SWOT](https://user-images.githubusercontent.com/86368784/125456707-b042dddf-e569-4684-bd13-ed6ce29fa792.png)
+
 
 Detail requirements:
 

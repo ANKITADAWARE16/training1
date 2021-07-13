@@ -17,4 +17,12 @@ Software Billing and Charging Partner and Interconnect Management Services Profe
 Detail requirements:
 
 low Level Requirements:
-Customer-interface Management − The billing system must be able to handle customer-initiated contact, oversee outbound customer contact, and manage the contact life cycle. Order Management − It is a basic functionality, which should be available in a typical billing system.
+
+LLR01 Customer-interface Management − The billing system must be able 
+to handle customer-initiated contact,
+
+LLR02 oversee outbound customer contact, and 
+manage the contact life cycle.
+
+LLR03 Order Management − It is a basic functionality, which
+should be available in a typical billing system.

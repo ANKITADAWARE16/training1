@@ -3,7 +3,6 @@
 #include <conio.h>
 #include <windows.h> ///for windows related functions (not important)
 #include <string.h>  ///string operations
-ankita
 /** List of Global Variable */
 COORD coord = {0,0}; /// top-left corner of window
 
@@ -50,7 +49,7 @@ int main()
         fp = fopen("EMP.DAT","wb+");
         if(fp == NULL)
         {
-            printf("Connot open file");
+            printf("\nConnot open file");
             exit(1);
         }
     }
@@ -58,22 +57,22 @@ int main()
     /// sizeo of each record i.e. size of structure variable e
     recsize = sizeof(e);
 
-    /// infinite loop continues untile the break statement encounter
+    /// infinite loop continues until the break statement encounter
     while(1)
     {
         system("cls"); ///clear the console window
         gotoxy(30,10); /// move the cursor to postion 30, 10 from top-left corner
-        printf("1. Add Record"); /// option for add record
+        printf("\n1. Add Record"); /// option for add record
         gotoxy(30,12);
-        printf("2. List Records"); /// option for showing existing record
+        printf("\n2. List Records"); /// option for showing existing record
         gotoxy(30,14);
-        printf("3. Modify Records"); /// option for editing record
+        printf("\n3. Modify Records"); /// option for editing record
         gotoxy(30,16);
-        printf("4. Delete Records"); /// option for deleting record
+        printf("\n4. Delete Records"); /// option for deleting record
         gotoxy(30,18);
-        printf("5. Exit"); /// exit from the program
+        printf("\n5. Exit"); /// exit from the program
         gotoxy(30,20);
-        printf("Your Choice: "); /// enter the choice 1, 2, 3, 4, 5
+        printf("\nYour Choice: "); /// enter the choice 1, 2, 3, 4, 5
         fflush(stdin); /// flush the input buffer
         choice  = getche(); /// get the input from keyboard
         switch(choice)
@@ -115,7 +114,7 @@ int main()
             another = 'y';
             while(another == 'y')
             {
-                printf("Enter the employee name to modify: ");
+                printf("\nEnter the employee name to modify: ");
                 scanf("%s", empname);
                 rewind(fp);
                 while(fread(&e,recsize,1,fp)==1)  /// fetch all record from file

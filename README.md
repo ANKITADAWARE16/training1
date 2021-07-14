@@ -1,7 +1,6 @@
 
 # Miniproject
 
-https://img.shields.io/github/downloads/ANKITADAWARE16/training1/total?color=%2300ff00&style=flat-square
 
 ## **SDLC ACTIVITY BASED LEARNING**
 

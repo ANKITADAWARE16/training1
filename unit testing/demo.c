@@ -34,6 +34,7 @@ int main()
     /** structure that represent a employee */
     struct emp
     {
+    
         char name[40]; ///name of employee
         int age; /// age of employee
         float bs; /// basic salary of employee

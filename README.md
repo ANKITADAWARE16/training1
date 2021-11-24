@@ -3,7 +3,7 @@
 
 ## **SDLC ACTIVITY BASED LEARNING**
 
-TELECOM BILLING SYSTEM
+m1_app_TELECOM BILLING SYSTEM
 
 FOLDER STRUCTURE:
   |      Contents        |            Description                         |
